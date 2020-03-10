@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+  
+
+  
+
+
+  <head>
+    <title>
+      delphes_prefit_tutorial.pdf on WorkBook/Tutorials/Prefit – Attachment
+     – Delphes
+    </title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--[if IE]><script type="text/javascript">
+      if (/^#__msie303:/.test(window.location.hash))
+        window.location.replace(window.location.hash.replace(/^#__msie303:/, '#'));
+    </script><![endif]-->
+        <link rel="search" href="/projects/delphes/search" />
+        <link rel="help" href="/projects/delphes/wiki/TracGuide" />
+        <link rel="alternate" href="/projects/delphes/raw-attachment/wiki/WorkBook/Tutorials/Prefit/delphes_prefit_tutorial.pdf" type="application/pdf; charset=iso-8859-15" title="Original Format" />
+        <link rel="up" href="/projects/delphes/wiki/WorkBook/Tutorials/Prefit" title="WorkBook/Tutorials/Prefit" />
+        <link rel="start" href="/projects/delphes/wiki" />
+        <link rel="stylesheet" href="/projects/delphes/chrome/common/css/trac.css" type="text/css" /><link rel="stylesheet" href="/projects/delphes/chrome/common/css/code.css" type="text/css" />
+        <link rel="shortcut icon" href="/projects/delphes/chrome/site/cp3blue_small.png" type="image/png" />
+        <link rel="icon" href="/projects/delphes/chrome/site/cp3blue_small.png" type="image/png" />
+    <style id="trac-noscript" type="text/css">.trac-noscript { display: none !important }</style>
+      <link type="application/opensearchdescription+xml" rel="search" href="/projects/delphes/search/opensearch" title="Search Delphes" />
+      <script type="text/javascript" charset="utf-8" src="/projects/delphes/chrome/common/js/jquery.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/projects/delphes/chrome/common/js/babel.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/projects/delphes/chrome/common/js/trac.js"></script>
+      <script type="text/javascript" charset="utf-8" src="/projects/delphes/chrome/common/js/search.js"></script>
+    <script type="text/javascript">
+      jQuery("#trac-noscript").remove();
+      jQuery(document).ready(function($) {
+        $(".trac-autofocus").focus();
+        $(".trac-target-new").attr("target", "_blank");
+        setTimeout(function() { $(".trac-scroll").scrollToTop() }, 1);
+        $(".trac-disable-on-submit").disableOnSubmit();
+      });
+    </script>
+      <script type="text/javascript" src="/projects/delphes/chrome/common/js/folding.js"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          $('#preview table.code').enableCollapsibleColumns($('#preview table.code thead th.content'));
+        });
+      </script>
+    <link rel="stylesheet" type="text/css" href="/projects/delphes/chrome/site/style.css" />
+  </head>
+  <body>
+    <div id="github">
+      <a href="http://github.com/delphes/delphes">Fork me on GitHub</a>
+    </div>
+    <div id="wrapper"><div id="ew-main"><div id="ew-content">
+    <div id="left">
+      <div class="block"><ul>
+        <li><a href="/projects/delphes">Home</a></li>
+        <li><a href="http://cp3.irmp.ucl.ac.be/downloads/Delphes-3.4.2.tar.gz">Download</a></li>
+        <li><a href="/projects/delphes/wiki/Releases">Releases</a></li>
+        <li><a href="/projects/delphes/wiki/WorkBook/QuickTour">Quick Tour</a></li>
+        <li><a href="/projects/delphes/wiki/WorkBook">Workbook</a></li>
+        <li><a href="/projects/delphes/newticket">New Ticket</a></li>
+        <li><a href="/projects/delphes/wiki/Contact">Contact</a></li>
+      </ul></div>
+    </div>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="/projects/delphes"><img src="/projects/delphes/chrome/site/delphes_logo.svg" alt="Delphes logo" height="80" width="80" /></a>
+      </div>
+      <form id="search" action="/projects/delphes/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="/projects/delphes/login">Login</a></li><li><a href="/projects/delphes/prefs">Preferences</a></li><li class="last"><a href="/projects/delphes/register">Register</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="/projects/delphes/wiki">Wiki</a></li><li><a href="/projects/delphes/browser">Source</a></li><li><a href="/projects/delphes/report">Tickets</a></li><li class="last"><a href="/projects/delphes/search">Search</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+        <ul>
+          <li class="last first"><a href="/projects/delphes/wiki/WorkBook/Tutorials/Prefit">Back to WorkBook/Tutorials/Prefit</a></li>
+        </ul>
+        <hr />
+      </div>
+    <div id="content" class="attachment">
+        <h1><a href="/projects/delphes/wiki/WorkBook/Tutorials/Prefit">WorkBook/Tutorials/Prefit</a>: delphes_prefit_tutorial.pdf</h1>
+        <table id="info" summary="Description">
+          <tr>
+            <th scope="col">File delphes_prefit_tutorial.pdf, <span title="1002001 bytes">978.5 KB</span> (added by mselvaggi, <a class="timeline" href="/projects/delphes/timeline?from=2020-03-09T17%3A11%3A03%2B01%3A00&amp;precision=second" title="See timeline at 03/09/20 17:11:03">15 minutes ago</a>)</th>
+          </tr>
+          <tr>
+            <td class="message searchable">
+              
+            </td>
+          </tr>
+        </table>
+        <div id="preview" class="searchable">
+          
+    <p>
+        <strong>HTML preview not available</strong>, since the file size exceeds 262144 bytes.
+      Try <a href="/projects/delphes/raw-attachment/wiki/WorkBook/Tutorials/Prefit/delphes_prefit_tutorial.pdf">downloading</a> the file instead.
+    </p>
+
+        </div>
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="/projects/delphes/raw-attachment/wiki/WorkBook/Tutorials/Prefit/delphes_prefit_tutorial.pdf">Original Format</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr />
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="/projects/delphes/chrome/common/trac_logo_mini.png" height="30" width="107" alt="Trac Powered" /></a>
+      <p class="left">Powered by <a href="/projects/delphes/about"><strong>Trac 1.0.17</strong></a><br />
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.</p>
+      <p class="right">Visit the Trac open source project at<br /><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+    </div></div></div>
+  </body>
+</html>
